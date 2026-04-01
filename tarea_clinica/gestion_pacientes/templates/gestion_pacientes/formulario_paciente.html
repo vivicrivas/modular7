@@ -16,7 +16,7 @@
             <div class="card shadow-sm">
                 <div class="card-header bg-dark text-white">
 
-                    <h4 class="mb-0">Registro nuevo paciente</h4>
+                    <h4 class="mb-0">{% if titulo %}{{ titulo }}{% else %}Registro de Paciente{% endif %}</h4>
                 </div>
 
                 <div class="card-body">
