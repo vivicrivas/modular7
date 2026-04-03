@@ -1,5 +1,10 @@
 # Clínica Médica - Sistema de Gestión de Pacientes
 
+Actividad modular desarrollada por grupo 2
+Viviana Canales
+Sebastian Toledo
+Alfonso Bastarrechea
+
 Una aplicación web desarrollada con Django para gestion de pacientes y médicos en una clínica médica.
 
 ## 📋 Descripción
