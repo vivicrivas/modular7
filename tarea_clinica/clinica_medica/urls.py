@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path('', views.lista_pacientes, name='lista_pacientes'),
     path('admin/', admin.site.urls),
     # Incluye las URLs de la app gestion_pacientes
     path('', include('gestion_pacientes.urls')),
